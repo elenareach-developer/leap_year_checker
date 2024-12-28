@@ -3,11 +3,11 @@ name: Publish Python Package
 on:
   release:
     types: [published]
-    environment: publish  # Указываем имя окружения
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: publish  # Указываем имя окружения
 
     steps:
     # Устанавливаем репозиторий
