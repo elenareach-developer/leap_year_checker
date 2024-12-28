@@ -3,6 +3,7 @@ name: Publish Python Package
 on:
   release:
     types: [published]
+    environment: publish  # Указываем имя окружения
 
 jobs:
   build:
