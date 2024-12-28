@@ -20,6 +20,6 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
     ),
     project_urls={
-        'Source': '',
+        'Source': 'https://github.com/elenareach-developer/leap_year_checker',
     },
 )
